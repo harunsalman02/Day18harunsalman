@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Day18harunsalman/src/main/java/com/juaracoding/Day18/pageobject/pages/Addtowishlist.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Day18harunsalman/src/test/java/pageobject/Testaddtowishlist.java">
+        <classes>
+            <class name="pageobject.Testaddtowishlist">
+                <methods>
+                    <include name="testmenuCatalog"/>
+                    <include name="testtxtCatalog"/>
+                    <include name="testcolorCatalog"/>
+                    <include name="testSize"/>
+                    <include name="testQuality"/>
+                    <include name="testADDtocart"/>
+                    <include name="testviewcart"/>
+                    <include name="testContinues"/>
+                    <include name="testShoesCatalog"/>
+                    <include name="testColor1"/>
+                    <include name="testSize1"/>
+                    <include name="testQuality1"/>
+                    <include name="testaddtocart1"/>
+                    <include name="testCART"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Day18harunsalman/src/test/java/pageobject/TestSearch.java">
+        <classes>
+            <class name="pageobject.TestSearch">
+                <methods>
+                    <include name="TestttxtValidSearch"/>
+                    <include name="TesttxtInvalidSearch"/>
+                    <include name="testtxtCatalog"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Day18harunsalman/src/main/java/com/juaracoding/Day18/pageobject/pages/Search.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harun/IdeaProjects/Day18harunsalman/src/main/java/com/juaracoding/Day18/utils/Constants.java">
+        <classes/>
+    </test>
+</suite>
